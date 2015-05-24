@@ -16,7 +16,7 @@ public class Snack {
 	public void printSnack(){
 		System.out.println("이름 : "+this.name);
 		System.out.println("제조사 : "+this.company);
-		System.out.println("가격 : "+String.format("%d", this.price) + "원");
+		System.out.println("가격 : "+String.format("%,d", this.price) + "원");
 		System.out.println("개수 : "+this.number);
 	}
 	public int calcPrice(){
