@@ -13,4 +13,7 @@ public class Circle extends Figure {
 	protected double calcArea(){
 		return radius*radius*Math.PI;
 	}
+	protected void printCenter(){
+		System.out.println("원 중심좌표 : ("+centerX+","+centerY+")");
+	}
 }
