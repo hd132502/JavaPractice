@@ -4,8 +4,8 @@ public class SmartPhoneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SmartPhone p1 = new IPhone("iPhone6", "¾ÖÇÃ" , 700000);
-		SmartPhone p2 =new Galaxy("°¶·°½Ã S6", "»ï¼º", 650000);
+		SmartPhone p1 = new IPhone("iPhone6", "ì• í”Œ" , 700000);
+		SmartPhone p2 =new Galaxy("ê°¤ëŸ­ì‹œ S6", "ì‚¼ì„±" , 650000);
 		IPhone i = (IPhone)p1;
 		System.out.println(p1.toString());
 		p1.turnOn();

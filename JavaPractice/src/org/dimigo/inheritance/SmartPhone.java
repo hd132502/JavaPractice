@@ -11,10 +11,10 @@ public class SmartPhone {
 		this.price = price;
 	}
 	public void turnOn(){
-		System.out.println(model+"ÀÇ Àü¿øÀ» ÄÕ´Ï´Ù.");
+		System.out.println(model+"ì˜ ì „ì›ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	public void turnOff(){
-		System.out.println(model+"ÀÇ Àü¿øÀ» ²ü´Ï´Ù.");
+		System.out.println(model+"ì˜ ì „ì›ì„ ë•ë‹ˆë‹¤.");
 	}
 	public void pay(){
 		
@@ -24,8 +24,8 @@ public class SmartPhone {
 	}
 	@Override
 	public String toString() {
-		return "¸ğµ¨¸í : "+ model + ", Á¦Á¶»ç : " + company
-				+ ", °¡°İ : " + String.format("%,d",price)+ "¿ø";
+		return "ëª¨ë¸ëª… : "+ model + ", ì œì¡°ì‚¬ : " + company
+				+ ", ê°€ê²© : " + String.format("%,d",price)+ "ì›";
 	}
 
 }

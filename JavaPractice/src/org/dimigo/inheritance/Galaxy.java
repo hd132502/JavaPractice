@@ -5,10 +5,10 @@ public class Galaxy extends SmartPhone {
 		super(model, company, price);
 	}
 	public void pay(){
-		System.out.println("»ï¼º ÆäÀÌ·Î °áÁ¦ÇÕ´Ï´Ù.");
+		System.out.println("ì‚¼ì„± í˜ì´ë¡œ ê²°ì œí•©ë‹ˆë‹¤.");
 	}
 	public void useWirelessCharging(){
-		System.out.println("¹«¼± ÃæÀü ±â´ÉÀ» ÀÌ¿ëÇÕ´Ï´Ù");
+		System.out.println("ë¬´ì„  ì¶©ì „ ê¸°ëŠ¥ì„ ì´ìš©í•©ë‹ˆë‹¤.");
 	}
 
 }

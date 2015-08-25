@@ -5,9 +5,9 @@ public class IPhone extends SmartPhone {
 		super(model, company, price);
 	}
 	public void pay(){
-		System.out.println("¾ÖÇÃ ÆäÀÌ·Î °áÁ¦ÇÕ´Ï´Ù.");
+		System.out.println("ì• í”Œ í˜ì´ë¡œ ê²°ì œí•©ë‹ˆë‹¤.");
 	}
 	public void useAirDrop(){
-		System.out.println("AirDrop ±â´ÉÀ» »ç¿ëÇÕ´Ï´Ù.");
+		System.out.println("AirDrop ê¸°ëŠ¥ì„ ì‚¬ìš©í•©ë‹ˆë‹¤.");
 	}
 }
